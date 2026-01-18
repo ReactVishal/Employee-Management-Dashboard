@@ -1,0 +1,141 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", Roboto, sans-serif;
+    background: #f3f4f6; /* light gray background */
+    color: #1f2937;      /* dark gray text */
+    line-height: 1.6;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 20px;
+  }
+  
+  /* Headings */
+  h1, h2, h3 {
+    color: #111827;
+    margin-bottom: 16px;
+  }
+  
+  /* Cards */
+  .card {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  }
+  
+  /* Summary cards */
+  .summary {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  .summary .card {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    color: white;
+  }
+  
+  /* Buttons */
+  button, .btn {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.2s;
+  }
+  button:hover {
+    opacity: 0.9;
+  }
+  button {
+    background: #3b82f6;
+    color: white;
+  }
+  button.secondary {
+    background: #6b7280;
+    color: white;
+  }
+  button.danger {
+    background: #ef4444;
+    color: white;
+  }
+  
+  /* Filters */
+  .filters {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .filters input, .filters select {
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+  }
+  
+  /* Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  }
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  th {
+    background: #f9fafb;
+    font-weight: 600;
+  }
+  tr:hover {
+    background: #f3f4f6;
+  }
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  /* Form */
+  form input, form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+  }
+  .error {
+    color: #ef4444;
+    font-size: 12px;
+  }
+  
+  /* Empty state */
+  .empty {
+    padding: 20px;
+    text-align: center;
+    color: #6b7280;
+  }
+  
+  /* Actions */
+  .header-actions {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  

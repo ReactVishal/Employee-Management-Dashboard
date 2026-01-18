@@ -1,0 +1,19 @@
+{
+  "name": "employee-dashboard-project",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Vishal Dixit",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^6.30.3"
+  }
+}
